@@ -6,7 +6,7 @@ Bu modül, hastanelerin ve polikliniklerin check-in noktalarında çalışmak ü
 
 ## 🔬 Çalışma Mekanizması ve Klinik Metrikler
 
-Modül çalıştırıldığında OpenCV ve MediaPipe Face Mesh kütüphanelerini kullanarak gerçek zamanlı bir **Head-Up Display (HUD)** ekranı açar. 20 saniyelik tarama döngüsü boyunca şu 7 hayati parametreyi eş zamanlı olarak hesaplar ve filtreler:
+Modül çalıştırıldığında OpenCV ve MediaPipe Face Mesh kütüphanelerini kullanarak gerçek zamanlı bir **Head-Up Display (HUD)** ekranı açar. 15 saniyelik tarama döngüsü boyunca şu 7 hayati parametreyi eş zamanlı olarak hesaplar ve filtreler:
 
 ### 1. Yüz ve Ağız Geometrisi (Nörolojik Takip)
 *   **Facial Asymmetry Index (%):** MediaPipe Face Mesh landmark'ları (sağ/sol yanak, göz ve alın koordinatları) üzerinden yüzün simetri eksenindeki milimetrik sapmaları izler.
